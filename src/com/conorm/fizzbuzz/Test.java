@@ -29,4 +29,10 @@ public class Test {
 		String actual = fb.convert(2);
 		assertEquals("2", actual);
 	}
+	
+	@org.junit.Test
+	public void number3ShouldReturnFizzBuzz() {
+		String actual = fb.convert(3);
+		assertEquals("Fizz", actual);
+	}
 }
