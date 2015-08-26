@@ -1,1 +1,31 @@
 # FizzBuzz
+My solution to the FizzBuzz kata, using TDD principles.
+
+This program prints numbers 1 to 100.</br>
+If the number is a multiple of 3, instead print "Fizz".</br>
+If the number is a multiple of 5, print "Buzz".</br>
+If the number is a multiple of both 3 and 5, print "FizzBuzz".
+
+Sample output:
+
+1</br>
+2</br>
+Fizz</br>
+4</br>
+Buzz</br>
+Fizz</br>
+7</br>
+8</br>
+Fizz</br>
+Buzz</br>
+11</br>
+Fizz</br>
+13</br>
+14</br>
+FizzBuzz</br>
+16</br>
+17</br>
+Fizz</br>
+19</br>
+Buzz</br>
+...

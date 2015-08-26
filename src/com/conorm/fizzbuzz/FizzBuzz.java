@@ -2,7 +2,13 @@ package com.conorm.fizzbuzz;
 
 public class FizzBuzz {
 
-	public String convert(int number) {
+	public static void main (String[] args) {
+		for (int i = 1; i <= 100; i++) {
+			System.out.println(convert(i));
+		}
+	}
+	
+	public static String convert(int number) {
 		if (isMultipleOf3(number) && isMultipleOf5(number)) {
 			return "FizzBuzz";
 		} else if (isMultipleOf3(number)) {
@@ -14,11 +20,11 @@ public class FizzBuzz {
 		}
 	}
 
-	private boolean isMultipleOf5(int number) {
+	private static boolean isMultipleOf5(int number) {
 		return number % 5 == 0;
 	}
 
-	private boolean isMultipleOf3(int number) {
+	private static boolean isMultipleOf3(int number) {
 		return number % 3 == 0;
 	}
 
