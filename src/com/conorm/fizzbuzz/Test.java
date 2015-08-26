@@ -23,4 +23,10 @@ public class Test {
 		String actual = fb.convert(1);
 		assertEquals("1", actual);
 	}
+	
+	@org.junit.Test
+	public void number2ShouldReturnString2() {
+		String actual = fb.convert(2);
+		assertEquals("2", actual);
+	}
 }
