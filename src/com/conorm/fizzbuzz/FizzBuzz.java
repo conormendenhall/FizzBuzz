@@ -4,7 +4,7 @@ public class FizzBuzz {
 
 	public String convert(int number) {
 		if (isMultipleOf3(number)) return "Fizz";
-		else if (number == 5) return "Buzz";
+		else if (number % 5 == 0) return "Buzz";
 		return Integer.toString(number);
 	}
 
