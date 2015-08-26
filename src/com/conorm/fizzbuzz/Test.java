@@ -21,42 +21,42 @@ public class Test {
 	@org.junit.Test
 	public void number1ShouldReturnString1() {
 		String actual = fb.convert(1);
-		assertEquals("1", actual);
+		String expected = "1";
+		assertEquals(expected, actual);
 	}
 	
 	@org.junit.Test
 	public void number2ShouldReturnString2() {
-		String actual = fb.convert(2);
-		assertEquals("2", actual);
+		assertEquals("2", fb.convert(2));
 	}
 	
 	@org.junit.Test
 	public void number3ShouldReturnFizz() {
-		String actual = fb.convert(3);
-		assertEquals("Fizz", actual);
+		assertEquals("Fizz", fb.convert(3));
 	}
 	
 	@org.junit.Test
 	public void number5ShouldReturnBuzz() {
-		String actual = fb.convert(5);
-		assertEquals("Buzz", actual);
+		assertEquals("Buzz", fb.convert(5));
 	}
 	
 	@org.junit.Test
 	public void number6ShouldReturnFizz() {
-		String actual = fb.convert(6);
-		assertEquals("Fizz", actual);
+		assertEquals("Fizz", fb.convert(6));
 	}
 	
 	@org.junit.Test
 	public void number10ShouldReturnBuzz() {
-		String actual = fb.convert(10);
-		assertEquals("Buzz", actual);
+		assertEquals("Buzz", fb.convert(10));
 	}
 	
 	@org.junit.Test
 	public void number15ShouldReturnFizzBuzz() {
-		String actual = fb.convert(15);
-		assertEquals("FizzBuzz", actual);
+		assertEquals("FizzBuzz", fb.convert(15));
+	}
+	
+	@org.junit.Test
+	public void number30ShouldReturnFizzBuzz() {
+		assertEquals("FizzBuzz", fb.convert(30));
 	}
 }
