@@ -9,4 +9,9 @@ public class Test {
 		FizzBuzz fb = new FizzBuzz();
 	}	
 
+	@org.junit.Test
+	public void shouldConvert() {
+		FizzBuzz fb = new FizzBuzz();
+		fb.convert(1);
+	}
 }
