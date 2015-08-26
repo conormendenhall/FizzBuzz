@@ -53,4 +53,10 @@ public class Test {
 		String actual = fb.convert(10);
 		assertEquals("Buzz", actual);
 	}
+	
+	@org.junit.Test
+	public void number15ShouldReturnFizzBuzz() {
+		String actual = fb.convert(15);
+		assertEquals("FizzBuzz", actual);
+	}
 }
