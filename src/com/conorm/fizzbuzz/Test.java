@@ -17,4 +17,10 @@ public class Test {
 	public void shouldConvert() {
 		fb.convert(1);
 	}
+	
+	@org.junit.Test
+	public void number1ShouldReturnString1() {
+		String actual = fb.convert(1);
+		assertEquals("1", actual);
+	}
 }
