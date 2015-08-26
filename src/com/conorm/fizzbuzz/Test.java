@@ -31,8 +31,14 @@ public class Test {
 	}
 	
 	@org.junit.Test
-	public void number3ShouldReturnFizzBuzz() {
+	public void number3ShouldReturnFizz() {
 		String actual = fb.convert(3);
 		assertEquals("Fizz", actual);
+	}
+	
+	@org.junit.Test
+	public void number5ShouldReturnBuzz() {
+		String actual = fb.convert(5);
+		assertEquals("Buzz", actual);
 	}
 }
